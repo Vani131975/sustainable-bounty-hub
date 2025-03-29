@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,41 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our sustainable agriculture theme
+				green: {
+					50: '#F1F8E9',
+					100: '#DCEDC8',
+					200: '#C5E1A5',
+					300: '#AED581',
+					400: '#9CCC65',
+					500: '#8BC34A',
+					600: '#7CB342',
+					700: '#689F38',
+					800: '#558B2F',
+					900: '#33691E',
+				},
+				brown: {
+					50: '#EFEBE9',
+					100: '#D7CCC8',
+					200: '#BCAAA4',
+					300: '#A1887F',
+					400: '#8D6E63',
+					500: '#795548',
+					600: '#6D4C41',
+					700: '#5D4037',
+					800: '#4E342E',
+					900: '#3E2723',
+				},
+				soil: {
+					light: '#D7CCC8',
+					DEFAULT: '#8D6E63',
+					dark: '#5D4037',
+				},
+				leaf: {
+					light: '#AED581',
+					DEFAULT: '#8BC34A',
+					dark: '#689F38',
 				}
 			},
 			borderRadius: {
@@ -84,11 +120,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'grow': {
+					'0%': { transform: 'scale(0.95)' },
+					'100%': { transform: 'scale(1)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'grow': 'grow 0.3s ease-out'
 			}
 		}
 	},
