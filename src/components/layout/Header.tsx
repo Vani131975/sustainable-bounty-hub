@@ -26,7 +26,7 @@ export function Header() {
         <div className="flex items-center">
           <Link to="/" className="flex items-center space-x-2">
             <Sprout className="h-6 w-6 text-leaf-dark" />
-            <span className="font-semibold text-xl">Sustainable Bounty Hub</span>
+            <span className="font-semibold text-xl">SustainHarvest</span>
           </Link>
         </div>
         

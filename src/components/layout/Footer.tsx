@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Sprout, Mail, MapPin, Phone } from 'lucide-react';
 
@@ -12,7 +11,7 @@ export function Footer() {
           <div className="flex flex-col">
             <div className="flex items-center gap-2 mb-4">
               <Sprout className="h-6 w-6 text-leaf-dark" />
-              <span className="font-semibold text-xl">Sustainable Bounty Hub</span>
+              <span className="font-semibold text-xl">SustainHarvest</span>
             </div>
             <p className="text-muted-foreground mt-2">
               A platform connecting food sharing with sustainable agriculture to 
@@ -61,7 +60,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {currentYear} Sustainable Bounty Hub. All rights reserved.
+            &copy; {currentYear} SustainHarvest. All rights reserved.
           </p>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm hover:text-primary transition-colors">Privacy Policy</Link>
